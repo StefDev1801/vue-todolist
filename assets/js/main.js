@@ -10,9 +10,9 @@ createApp({
 
     },
     mounted(){
-
+        console.log('test');
 
     }
-})
+}).mount('#app')
 
 console.log('stil works?');
