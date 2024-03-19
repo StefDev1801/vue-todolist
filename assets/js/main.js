@@ -3,6 +3,7 @@ const { createApp } = Vue;
 createApp({
     data(){
         return{
+            numberOfItem : 0,
             toDoList : [
                 {
                     text: 'Complete Vue Boolzapp',

@@ -9,7 +9,9 @@
 
 <body>
     <div id="app">
-
+        <ol>
+            <li v-for="(item, index) in toDoList">{{ item.text }}</li>
+        </ol>
     </div>
 
 
